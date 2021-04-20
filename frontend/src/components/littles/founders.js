@@ -63,7 +63,7 @@ export default function Founders() {
       />
       <CardMedia
         className={classes.media}
-        image={`https://avatars.githubusercontent.com/u/62314838?v=4`}
+        image={`https://s.gravatar.com/avatar/4957d143c31b790662bd9bce967e58f9?s=300&r=pg&d=mm`}
         title=""
       />
       <CardContent>

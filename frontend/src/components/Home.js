@@ -55,7 +55,12 @@ export default function Home() {
     if(products && products) {
         const lowerCaseInput = userInput && userInput.toLowerCase()
         const filteredProducts = products && products.filter((product) => product.product_name.toLowerCase().includes(lowerCaseInput) 
-        || product.product_categories[0].name.toLowerCase().includes(lowerCaseInput) || product.product_brands[0].name.toLowerCase().includes(lowerCaseInput) )
+        || product.product_categories[0].name.toLowerCase().includes(lowerCaseInput) 
+        || product.product_brands[0].name.toLowerCase().includes(lowerCaseInput) 
+        || product.product_tags[0].name.toLowerCase().includes(lowerCaseInput)
+        || product.product_tags[1].name.toLowerCase().includes(lowerCaseInput)
+        || product.product_tags[2].name.toLowerCase().includes(lowerCaseInput)
+        )
         if(filteredProducts.length <= 0) {
           setUserInput("")
           setProducts([])
@@ -73,7 +78,7 @@ export default function Home() {
 function handleChange() {
   setUserInput(document.querySelector('input').value);
 }
-
+console.log(products)
 
   return (
     <div className={classes.root}>
