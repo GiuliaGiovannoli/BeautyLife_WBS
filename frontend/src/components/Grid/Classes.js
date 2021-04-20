@@ -149,6 +149,9 @@ export default function Classes () {
         InputLabelProps={{
           shrink: true,
         }}
+        inputProps={{
+        min: "2021-04-20T10:30"
+        }}
         onChange={() => {handleDateChange()}}
       />
     </form>
