@@ -63,7 +63,7 @@ const OrderSuccess = () => {
                                             <Row>
                                                 <Col md={10} style={{ marginTop: 'auto' }} >
                                                     <Card>
-                                                        <Card.Header style={{ backgroundColor: '#fde2e2' }}>
+                                                        <Card.Header style={{ backgroundColor: '#f8f1f1' }}>
                                                             <h3>Order Summary</h3>
 
                                                         </Card.Header>
@@ -140,7 +140,7 @@ const OrderSuccess = () => {
                                                                     <tr>
                                                                         <td colSpan="4" />
                                                                         <td>Grand Total :
-                                             <span className="text-primary">{calculateGrandTotal()}</span>
+                                            <span className="text-primary">{calculateGrandTotal()}</span>
                                                                         </td>
                                                                     </tr>
                                                                 </tbody>

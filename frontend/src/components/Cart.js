@@ -112,7 +112,9 @@ export default function Cart() {
           {cart && cart.map((row) => (
             <TableRow>
             <TableCell><img src={row._id === '0000' ? Class : `${BACK_URL}/${row.product_image}`} alt="" width="80px" /></TableCell>
-              <TableCell component="th" scope="row"><Link id="linkStyle" to={`/products/product/all/one/${row._id}`}>{row.product_name}</Link></TableCell>
+              <TableCell component="th" scope="row">
+              <Link id="linkStyle" to={row._id  === '0000' ? "/beauty/life/company/help/lessons/info/classes/makeup/class/lesson/yourlesson" : `/products/product/all/one/${row._id}`}>{row.product_name}
+              </Link></TableCell>
               <TableCell>€ {row.product_price}</TableCell>
               <TableCell>
               <ButtonGroup size="small" aria-label="small outlined button group">
