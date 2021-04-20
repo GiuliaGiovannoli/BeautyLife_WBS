@@ -1,0 +1,40 @@
+#questions {
+  margin: 2% 10%;
+  text-align: center;
+}
+
+#one {
+  margin: 2% 0;
+  border: 3px solid #f8f1f1;
+  font-family: 'Montserrat', sans-serif;
+  color: #2b4f60;
+  text-align: left;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.two {
+  border: 3px solid #f8f1f1;
+  width: 50%;
+  margin: 0 5%;
+  box-shadow: 1px 3px #f8f1f1;
+  cursor: pointer;
+}
+
+.two:hover {
+  text-decoration: underline;
+}
+
+.founders {
+  display: flex;
+  justify-content: space-around;
+}
+
+.three {
+  text-align: center;
+  font-family: 'Train One', cursive;
+  font-size: 2.5rem;
+}

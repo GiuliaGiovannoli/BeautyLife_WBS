@@ -1,0 +1,161 @@
+
+[
+  {
+    "id" : 1,
+    "question" : "Who are we?",
+    "answer" : "Check out our story."
+  },
+  {
+    "id" : 2,
+    "question" : "How to set up a profile?",
+    "answer" : "Just register yourself in the registration section, insert your email and a password."
+  },
+  {
+    "id" : 3,
+    "question" : "Do you have problem to register with your email?",
+    "answer" : "We accept only one account per email, so please check if you have already an account with us. Otherwise contact us."
+  },
+  {
+    "id" : 4,
+    "question" : "Do you have any problem with your password?",
+    "answer" : "We accept any kind of password, but for your own privacy we do not know them, so just contact us and we can update your profile."
+  },
+  {
+    "id" : 5,
+    "question" : "How can you insert and/or update your address?",
+    "answer" : "When go further for your purchase, just click for the checkout section and directly there you can insert and/or update your address, otherwise on your profile page easily you can update and save your new address."
+  },
+  {
+    "id" : 6,
+    "question" : "Do you have any problem logging in in your profile?",
+    "answer" : "First make sure you insert the correct email and password, and if you still have problem just contact us."
+  },
+  {
+    "id" : 7,
+    "question" : "Which kind of payment do we accept?",
+    "answer" : "We accept only two kinds of payment for now, credit cards or cash on the delivery date."
+  },
+  {
+    "id" : 8,
+    "question" : "How long does it take for the deliver to arrive?",
+    "answer" : "We generally try our best to guarantee the delivery within seven working days from the order date, during major holiday it could take up to ten days. If your order is not arrived within two weeks, please contact us."
+  },{
+    "id" : 9,
+    "question" : "Which kind of delivery can we offer you?",
+    "answer" : "Our delivery offers is by post or in some countries by currier, you just need to write your address in the address section just right before your payment section. In case you do not want to have your package sent at your home, you can also insert the address of a locker. Just make sure to choose the right payment method before."
+  },{
+    "id" : 10,
+    "question" : "How to set up an order?",
+    "answer" : "Just add your item to your cart, then update or set up your address for the delivery, checkout for the payment section and choose the type of payment you prefer."
+  },
+  {
+    "id" : 11,
+    "question" : "Where can you see your order history?",
+    "answer" : "Just go on your profile and check the order history."
+  },
+  {
+    "id" : 12,
+    "question" : "Do you have any problem with your order?",
+    "answer" : "Make sure you choose the right address and payment type for you. Contact us and we will try to solve any problems."
+  },
+  {
+    "id" : 13,
+    "question" : "Do you want to cancel an order?",
+    "answer" : "Contact us and we will try to solve it. Depending on the time you send the cancellation request, the delivery costs might be charged it to you anyway."
+  },
+  {
+    "id" : 14,
+    "question" : "Do you have any problem with your payment?",
+    "answer" : "Contact us and we will try to solve it. Just keep in mind we accept only credit cards or cash on the delivery date."
+  },
+  {
+    "id" : 15,
+    "question" : "Which are our categories products?",
+    "answer" : "We have four categories for now: body, face, make up, perfume and hair. We also have a Classes section for online make up lessons."
+  },
+  {
+    "id" : 16,
+    "question" : "Which brands do we offer?",
+    "answer" : "We have a vast selection of brands, that we try to keep update and change in base of our costumers needs."
+  },
+  {
+    "id" : 17,
+    "question" : "Which are the tags of the products?",
+    "answer" : "We try to select the more useful selection of tags in base of our costumers needs, if you need any specific tag just contact us."
+  },
+  {
+    "id" : 18,
+    "question" : "Which products can you find in our website?",
+    "answer" : "We try to select the best selection of beauty products in base of our costumers needs, if you need any specific product just contact us."
+  },
+  {
+    "id" : 19,
+    "question" : "How to contact us?",
+    "answer" : "We have an email section where you we write us anytime."
+  },
+  {
+    "id" : 20,
+    "question" : "How to claim a refund?",
+    "answer" : "If for any reason you need to claim a refund, just write us an email. We can offer refund or vouchers as you prefer."
+  },
+  {
+    "id" : 21,
+    "question" : "When can you claim a refund?",
+    "answer" : "If for any reason the products are not in good conditions just email us with a picture of the products."
+  },
+  {
+    "id" : 22,
+    "question" : "How to return your package?",
+    "answer" : "If for any reason you need to return our packages, just use the the invoice inside your package."
+  },
+  {
+    "id" : 23,
+    "question" : "Where can you find us?",
+    "answer" : "Just check our social medias, or our location section or our story section."
+  },
+  {
+    "id" : 24,
+    "question" : "How do we value our privacy?",
+    "answer" : "Your privacy is very important to us and we do not share your personal datas."
+  },
+  {
+    "id" : 25,
+    "question" : "Where to find the images we use here?",
+    "answer" : "On unsplash."
+  },
+  {
+    "id" : 26,
+    "question" : "How did we create this website?",
+    "answer" : "Mainly with Javascript; more specifically our tools are: Nodejs and express for backend, Reactjs and redux for frontend and for our database we used MongoDB and mongoose; for the design we used material-ui, bootstrap and css. Npm packages used are as followed: react-router-dom, redux (redux, redux-logger, redux-thunk and redux-devtools-extension), jsonwebtoken, axios, material-ui (core, icons and pickers), react-tabs, bootstrap, stripe, multer, mongoose, gravatar, express and express-validator, bcryptjs, cors."
+  },
+  {
+    "id" : 27,
+    "question" : "How was our journey to coding?",
+    "answer" : "We all attended the WBS coding school in Berlin with a four months bootcamp and we kept studying and learning."
+  },
+  {
+    "id" : 28,
+    "question" : "Which is our idea and scope?",
+    "answer" : "We want to create and replicate an online commerce website for improving our coding skills and abilities."
+  },
+  {
+    "id" : 29,
+    "question" : "Do you have any feedback, question or comment for our website?",
+    "answer" : "Please contact us through our Linkedin, we will be happy to hear you."
+  },
+  {
+    "id" : 30,
+    "question" : "Where can you find our code?",
+    "answer" : "On github, please check our story section for the link."
+  },
+  {
+    "id" : 31,
+    "question" : "Where can you the api we created?",
+    "answer" : "On heroku, here is the link: https://beautylifewbs.herokuapp.com. Here some endpoints: /api/categories => for listing all the categories, /api/brands => for listing all the brands, /api/tags => for listing all the tags, /api/products => for listing all the products, /api/products/:id => for listing one product by id, /api/products/find/:name => for listing all the products with the same name, /api/products/find/category/:name => for listing all the products with the same category, /api/products/find/category/brand/:name => for listing all the products with the same brand, /api/products/find/category/brand/tag/:name => for listing all the products with the same tag."
+  },
+  {
+    "id" : 32,
+    "question" : "What will we do next?",
+    "answer" : "We want to work on creating a custumer chat and implementing more features on the website."
+  }
+]

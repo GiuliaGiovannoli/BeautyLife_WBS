@@ -1,0 +1,14 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #2b4f60;
+}
+
+p,
+#linkStyle {
+  text-decoration: none;
+  color: #2b4f60;
+}
+
+.superRed {
+  color: #7b113a !important;
+}
