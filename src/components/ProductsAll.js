@@ -22,6 +22,13 @@ import { red } from '@material-ui/core/colors';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 
+import One from '../img/1.jpg';
+import Two from '../img/2.jpg';
+import Three from '../img/3.jpg';
+import Five from '../img/5.jpg';
+import Seven from '../img/7.jpg';
+import Eleven from '../img/11.jpg';
+
 import './comp-styles.css';
 
 const useStyles = makeStyles((theme) => ({
@@ -133,14 +140,18 @@ export default function ProductsAll({ userInput }) {
 
                 {prevProducts && prevProducts.length >= 1 ?
 
-                  prevProducts && prevProducts.map((product) => {
+                  prevProducts && prevProducts.map((product, index) => {
                     return (
                       <Card className={classes.root} id="product"
                         style={{cursor: 'default', backgroundColor: '#f8f1f1', borderRadius: '5%', boxShadow: '0px 0px 0px 0px' }}>
                         <Link to={`/products/product/all/one/${product._id}`}>
                           <CardMedia
                             className={classes.media}
-                            image={`${BACK_URL}/${product.product_image}`}
+                            image={index % 7 === 0 ? Seven : 
+                              index % 11 === 0 ? Eleven : 
+                                index % 5 === 0 ? Five : 
+                                  index % 3 === 0 ? Three : 
+                                  index % 2 === 0 ? Two : One}
                             title="product"
                           />
                         </Link>

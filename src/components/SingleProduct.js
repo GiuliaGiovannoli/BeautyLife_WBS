@@ -14,6 +14,8 @@ import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
+import Photo from '../img/7.jpg';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -113,7 +115,7 @@ console.log(product && product)
               {heart && <FavoriteIcon id="clickable" style={{ fontSize: '2.5rem' }} onClick={() => { addToHeart(product) }} className={heart.find(one => one._id === product._id) ? 'superRed' : ''} />}
             </Grid>
                 <Grid item>
-              <img className={classes.img} alt="complex" src={`${BACK_URL}/${product.product_image}`} />
+              <img className={classes.img} alt="complex" src={Photo} />
           </Grid>
                 </Grid>
             <Grid item xs={12} sm container  style={{ border: 'none', marginLeft: '5%', marginRight: '2%' }}>
