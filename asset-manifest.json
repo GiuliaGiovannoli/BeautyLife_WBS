@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/BeautyLife_WBS/static/css/main.04037fad.chunk.css",
-    "main.js": "/BeautyLife_WBS/static/js/main.831add0f.chunk.js",
-    "main.js.map": "/BeautyLife_WBS/static/js/main.831add0f.chunk.js.map",
+    "main.js": "/BeautyLife_WBS/static/js/main.d6f74549.chunk.js",
+    "main.js.map": "/BeautyLife_WBS/static/js/main.d6f74549.chunk.js.map",
     "runtime-main.js": "/BeautyLife_WBS/static/js/runtime-main.df1b3ec4.js",
     "runtime-main.js.map": "/BeautyLife_WBS/static/js/runtime-main.df1b3ec4.js.map",
     "static/css/2.b62679eb.chunk.css": "/BeautyLife_WBS/static/css/2.b62679eb.chunk.css",
@@ -44,6 +44,6 @@
     "static/css/2.b62679eb.chunk.css",
     "static/js/2.0ed724a7.chunk.js",
     "static/css/main.04037fad.chunk.css",
-    "static/js/main.831add0f.chunk.js"
+    "static/js/main.d6f74549.chunk.js"
   ]
 }
