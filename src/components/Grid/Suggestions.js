@@ -66,7 +66,7 @@ export default function Suggestions() {
     <h6 style={{ marginLeft: '-10%'}}><em> Suggested for you</em></h6>
         { suggestionOne && suggestionOne ? 
           <Card id="suggestion" className={classes.root} style={{ width : '120px', borderRadius: '6%', backgroundColor: '#f8f1f1', marginTop: '5%', marginBottom: '20%' }}>
-          <Link id="linkStyle" to={`/products/product/all/one/${suggestionOne._id}`}>
+          <Link id="linkStyle" to={`/BeautyLife_WBS/products/product/all/one/${suggestionOne._id}`}>
       <CardActionArea style={{ cursor: 'pointer' }}>
         <CardMedia
           className={classes.media}
@@ -86,7 +86,7 @@ export default function Suggestions() {
 
           { suggestionTwo && suggestionTwo ? 
             <Card id="suggestion" className={classes.root} style={{ width : '120px', borderRadius: '6%', backgroundColor: '#f8f1f1', marginTop: '5%', marginBottom: '20%' }}>
-          <Link id="linkStyle" to={`/products/product/all/one/${suggestionTwo._id}`}>
+          <Link id="linkStyle" to={`/BeautyLife_WBS/products/product/all/one/${suggestionTwo._id}`}>
       <CardActionArea style={{ cursor: 'pointer' }}>
         <CardMedia
           className={classes.media}
@@ -106,7 +106,7 @@ export default function Suggestions() {
 
           { suggestionThree && suggestionThree ? 
             <Card id="suggestion" className={classes.root} style={{ width : '120px', borderRadius: '6%', backgroundColor: '#f8f1f1', marginTop: '5%', marginBottom: '20%' }}>
-          <Link id="linkStyle" to={`/products/product/all/one/${suggestionThree._id}`}>
+          <Link id="linkStyle" to={`/BeautyLife_WBS/products/product/all/one/${suggestionThree._id}`}>
       <CardActionArea style={{ cursor: 'pointer' }}>
         <CardMedia
           className={classes.media}
@@ -130,7 +130,7 @@ export default function Suggestions() {
 
           return (
             <Card id="suggestion" className={classes.root} style={{ width : '120px', borderRadius: '6%', backgroundColor: '#f8f1f1', marginTop: '5%', marginBottom: '20%' }}>
-          <Link id="linkStyle" to={`/products/product/all/one/${one._id}`}>
+          <Link id="linkStyle" to={`/BeautyLife_WBS/products/product/all/one/${one._id}`}>
       <CardActionArea style={{ cursor: 'pointer' }}>
         <CardMedia
           className={classes.media}

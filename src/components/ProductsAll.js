@@ -144,7 +144,7 @@ export default function ProductsAll({ userInput }) {
                     return (
                       <Card className={classes.root} id="product"
                         style={{cursor: 'default', backgroundColor: '#f8f1f1', borderRadius: '5%', boxShadow: '0px 0px 0px 0px' }}>
-                        <Link to={`/products/product/all/one/${product._id}`}>
+                        <Link to={`/BeautyLife_WBS/products/product/all/one/${product._id}`}>
                           <CardMedia
                             className={classes.media}
                             image={index % 7 === 0 ? Seven : 
@@ -250,7 +250,7 @@ export default function ProductsAll({ userInput }) {
                     <div style={{ display: 'flex', margin: '10% 25%', flexFlow: 'column wrap' }}>
                       <Typography style={{ fontSize: '1.5rem' }}>
                         No products found 
-                    <Link to="/" id="linkStyle">
+                    <Link to="/BeautyLife_WBS/" id="linkStyle">
                           <Button id="clickable" style={{ backgroundColor: '#f8f1f1', margin: '2% 40%' }}>
                             Go back
                     </Button>

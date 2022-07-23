@@ -34,19 +34,19 @@ export default function Footer() {
               <h4>Help</h4>
               <ul>
                 <li>
-                <Link to="/beauty/life/company/help/contact/customers/service/questions/answers" id="linkStyle">
+                <Link to="/BeautyLife_WBS/beauty/life/company/help/contact/customers/service/questions/answers" id="linkStyle">
                 <LiveHelpIcon id="clickable" /> 
                 F A Q
                 </Link>
                 </li>
                 <li>
-                <Link to="/beauty/life/company/help/contact/customers/service/questions/answers" id="linkStyle">
+                <Link to="/BeautyLife_WBS/beauty/life/company/help/contact/customers/service/questions/answers" id="linkStyle">
                 <SpeakerNotesIcon id="clickable" />  
                 Chat 
                 </Link>
                 </li>
                 <li>
-                <Link to="/beauty/life/company/help/contact/customers/service/questions/answers" id="linkStyle">
+                <Link to="/BeautyLife_WBS/beauty/life/company/help/contact/customers/service/questions/answers" id="linkStyle">
                 <MailOutlineIcon id="clickable" /> 
                 Email
                 </Link> 
@@ -57,21 +57,21 @@ export default function Footer() {
             <br></br>
             <h4>Infos</h4>
               <ul>
-              <Link to="/beauty/life/company/help/contact/customers/service/questions/answers" id="linkStyle">
+              <Link to="/BeautyLife_WBS/beauty/life/company/help/contact/customers/service/questions/answers" id="linkStyle">
                 <li>Payment methods</li>
                 <dl>
                   <CreditCardIcon id="clickable" /> 
                   <LocalAtmIcon id="clickable" />
                 </dl>
                 </Link>
-                <Link to="/beauty/life/company/help/contact/customers/service/questions/answers" id="linkStyle">
+                <Link to="/BeautyLife_WBS/beauty/life/company/help/contact/customers/service/questions/answers" id="linkStyle">
                 <li>Delivery Methods</li>
                 <dl>
                   <HomeIcon id="clickable" /> 
                   <MarkunreadMailboxIcon id="clickable" />
                 </dl>
                 </Link>
-                <Link to="/beauty/life/company/help/contact/customers/service/questions/answers" id="linkStyle">
+                <Link to="/BeautyLife_WBS/beauty/life/company/help/contact/customers/service/questions/answers" id="linkStyle">
                 <li>Refound Options</li>
                 <dl>
                   <RedeemIcon id="clickable" /> 
@@ -85,19 +85,19 @@ export default function Footer() {
               <h4>About us</h4>
               <ul>
                 <li>
-                <Link to="/beauty/life/company/help/contact/info/story/us/three/founders" id="linkStyle">
+                <Link to="/BeautyLife_WBS/beauty/life/company/help/contact/info/story/us/three/founders" id="linkStyle">
                 <LocalMoviesIcon id="clickable" />  
                 Story
                 </Link>
                 </li>
                 <li>
-                <Link to="/beauty/life/company/help/contact/info/story/us/three/founders" id="linkStyle">
+                <Link to="/BeautyLife_WBS/beauty/life/company/help/contact/info/story/us/three/founders" id="linkStyle">
                 <AlarmOnIcon id="clickable" /> 
                 News
                 </Link>
                 </li>
                 <li>
-                <Link to="/beauty/life/company/help/contact/info/story/us/three/founders" id="linkStyle">
+                <Link to="/BeautyLife_WBS/beauty/life/company/help/contact/info/story/us/three/founders" id="linkStyle">
                 <WorkOutlineIcon id="clickable" /> 
                 Staff
                 </Link> 
@@ -118,13 +118,13 @@ export default function Footer() {
                 </div>
                 <hr></hr>
                 <div className="infos">
-                <Link to="/beauty/life/company/help/contact/info/story/us/three/founders" id="linkStyle">
+                <Link to="/BeautyLife_WBS/beauty/life/company/help/contact/info/story/us/three/founders" id="linkStyle">
                   <p id="clickable">Location</p>
                   </Link>
-                  <Link to="/beauty/life/company/help/contact/customers/service/questions/answers" id="linkStyle">
+                  <Link to="/BeautyLife_WBS/beauty/life/company/help/contact/customers/service/questions/answers" id="linkStyle">
                   <p id="clickable">Terms & Conditions</p>
                   </Link>
-                  <Link to="/beauty/life/company/help/contact/customers/service/questions/answers" id="linkStyle">
+                  <Link to="/BeautyLife_WBS/beauty/life/company/help/contact/customers/service/questions/answers" id="linkStyle">
                   <p id="clickable">Privacy Notice</p>
                   </Link>
                 </div>

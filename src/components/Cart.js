@@ -91,7 +91,7 @@ export default function Cart() {
     <>
     <div style={{ display: 'flex', justifyContent: 'space-around', margin: '2% 20%' }}>
     <ShoppingBasketIcon style={{fontSize: '4rem', color: '#2b4f60' }} />
-    { cart &&cart.length >= 1 && <Link id="linkStyle" to ="/beauty/life/user/profile/buy/cart/checkout">
+    { cart &&cart.length >= 1 && <Link id="linkStyle" to ="/BeautyLife_WBS/beauty/life/user/profile/buy/cart/checkout">
       <Button style={{ lineHeight: '50px' }} id="btn">Checkout</Button></Link>}
       </div>
       <br></br>
@@ -113,7 +113,7 @@ export default function Cart() {
             <TableRow>
             <TableCell><img src={row._id === '0000' ? Class : `${BACK_URL}/${row.product_image}`} alt="" width="80px" /></TableCell>
               <TableCell component="th" scope="row">
-              <Link id="linkStyle" to={row._id  === '0000' ? "/beauty/life/company/help/lessons/info/classes/makeup/class/lesson/yourlesson" : `/products/product/all/one/${row._id}`}>{row.product_name}
+              <Link id="linkStyle" to={row._id  === '0000' ? "/BeautyLife_WBS/beauty/life/company/help/lessons/info/classes/makeup/class/lesson/yourlesson" : `/products/product/all/one/${row._id}`}>{row.product_name}
               </Link></TableCell>
               <TableCell>€ {row.product_price}</TableCell>
               <TableCell>

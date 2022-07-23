@@ -88,31 +88,31 @@ console.log(products)
         </Grid>
         <Grid item xs={12}>
         <Switch>
-        <Route path="/beauty/life/company/help/contact/info/story/us/three/founders" exact>
+        <Route path="/BeautyLife_WBS/beauty/life/company/help/contact/info/story/us/three/founders" exact>
         <Founders />
         </Route>
-        <Route path="/beauty/life/company/help/contact/customers/service/questions/answers" exact>
+        <Route path="/BeautyLife_WBS/beauty/life/company/help/contact/customers/service/questions/answers" exact>
         <FAQ />
         </Route>
-        <Route path="/beauty/life/user/profile/products/buy/favorites/heart" exact>
+        <Route path="/BeautyLife_WBS/beauty/life/user/profile/products/buy/favorites/heart" exact>
         <Favorite />
         </Route>
-        <Route path="/beauty/life/user/profile/buy/cart" exact>
+        <Route path="/BeautyLife_WBS/beauty/life/user/profile/buy/cart" exact>
         <Cart />
         </Route>
-        <Route path="/beauty/life/users/user/profile" exact>
+        <Route path="/BeautyLife_WBS/beauty/life/users/user/profile" exact>
         <UserProfile />
         </Route>
-        <Route path="/products/category/brand/:brand" exact>
+        <Route path="/BeautyLife_WBS/products/category/brand/:brand" exact>
             <Brands />
             </Route>
-            <Route path="/products/search/:filter" exact>
+            <Route path="/BeautyLife_WBS/products/search/:filter" exact>
             <Brands />
             </Route>
-            <Route path="/products/:category" exact>
+            <Route path="/BeautyLife_WBS/products/:category" exact>
             <Brands />
             </Route>
-            <Route path="/" exact>
+            <Route path="/BeautyLife_WBS/" exact>
             <Brands />
         </Route>
         </Switch>
@@ -120,41 +120,41 @@ console.log(products)
         <Grid item xs={12} id="home" style={{ display: 'flex', justifyContent: 'space-between' }}>
         <Grid item xs={2}>
         <Switch>
-        <Route path="/products/product/all/one/:id" exact>
+        <Route path="/BeautyLife_WBS/products/product/all/one/:id" exact>
             <Suggestions />
         </Route>
-        <Route path="/products/category/brand/:brand" exact>
+        <Route path="/BeautyLife_WBS/products/category/brand/:brand" exact>
             <SideBar />
             </Route>
-            <Route path="/products/search/:filter" exact>
+            <Route path="/BeautyLife_WBS/products/search/:filter" exact>
             <SideBar />
             </Route>
-            <Route path="/products/:category" exact>
+            <Route path="/BeautyLife_WBS/products/:category" exact>
             <SideBar />
             </Route>
-            <Route path="/" exact>
+            <Route path="/BeautyLife_WBS/" exact>
             <Suggestions />
             </Route>
         </Switch>
         </Grid>
         <Grid item xs={10}>
         <Switch>
-        <Route exact path="/beauty/life/company/help/lessons/info/classes/makeup/class/lesson/yourlesson">
+        <Route exact path="/BeautyLife_WBS/beauty/life/company/help/lessons/info/classes/makeup/class/lesson/yourlesson">
         <Classes />
         </Route>
-        <Route path="/products/product/all/one/:id" exact>
+        <Route path="/BeautyLife_WBS/products/product/all/one/:id" exact>
             <SingleProduct />
         </Route>
-        <Route path="/products/category/brand/:brand" exact>
+        <Route path="/BeautyLife_WBS/products/category/brand/:brand" exact>
             <ProductsAll userInput={userInput} />
             </Route>
-            <Route path="/products/search/:filter" exact>
+            <Route path="/BeautyLife_WBS/products/search/:filter" exact>
             <ProductsAll userInput={userInput} />
             </Route>
-            <Route path="/products/:category" exact>
+            <Route path="/BeautyLife_WBS/products/:category" exact>
             <ProductsAll userInput={userInput} />
             </Route>
-        <Route path="/" exact>
+        <Route path="/BeautyLife_WBS/" exact>
             <Categories />
         </Route>
         </Switch>

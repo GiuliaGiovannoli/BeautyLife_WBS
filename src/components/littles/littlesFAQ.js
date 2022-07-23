@@ -45,7 +45,7 @@ export default function FAQ() {
     <br></br>
     <div className="subtitle">
     <div className="two">
-    <Link to="/beauty/life/company/help/contact/info/story/us/three/founders" id="linkStyle">
+    <Link to="/BeautyLife_WBS/beauty/life/company/help/contact/info/story/us/three/founders" id="linkStyle">
     <p>Check here our Story section </p>
     <p>Go</p>
     </Link>

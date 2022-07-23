@@ -148,7 +148,7 @@ const OrderSuccess = () => {
                                                             </Table>
                                                             <h5>NOTE : Your shipment will be delivered within 3 business days</h5>
                                                             <Button variant="danger" style={{ width: '90%', margin: '15px 5% 15px 5%', backgroundColor: '#2b4f60', border: 'none' }} onClick={takePrint}>Print Doc</Button>
-                                                            <Link to="/">
+                                                            <Link to="/BeautyLife_WBS/">
                                                                 <Button variant="danger" style={{ width: '90%', margin: '15px 5% 15px 5%', backgroundColor: '#2b4f60', border: 'none' }}>Done</Button>
 
                                                             </Link>

@@ -23,7 +23,7 @@ export default function Brands(){
     <Carousel fade keyboard={false} controls={false} indicators={false} interval={3000}>
   <Carousel.Item>
   <div id="carousel">
-  <Link  id="clickable" to="/products/category/brand/Dior">
+  <Link  id="clickable" to="/BeautyLife_WBS/products/category/brand/Dior">
     <img
       className=""
       src={One}
@@ -31,7 +31,7 @@ export default function Brands(){
       width="45%"
       height="25px"
     /></Link>
-    <Link  id="clickable" to="/products/category/brand/Hugo Boss">
+    <Link  id="clickable" to="/BeautyLife_WBS/products/category/brand/Hugo Boss">
     <img
       className=""
       src={Two}
@@ -39,7 +39,7 @@ export default function Brands(){
       width="45%"
       height="25px"
     /></Link>
-    <Link  id="clickable" to="/products/category/brand/Chanel">
+    <Link  id="clickable" to="/BeautyLife_WBS/products/category/brand/Chanel">
     <img
       className=""
       src={Three}
@@ -47,7 +47,7 @@ export default function Brands(){
       width="45%"
       height="25px"
     /></Link>
-    <Link  id="clickable" to="/products/category/brand/Hermes">
+    <Link  id="clickable" to="/BeautyLife_WBS/products/category/brand/Hermes">
     <img
       className=""
       src={Four}
@@ -59,7 +59,7 @@ export default function Brands(){
   </Carousel.Item>
   <Carousel.Item>
   <div id="carousel">
-  <Link  id="clickable" to="/products/category/brand/Clinique">
+  <Link  id="clickable" to="/BeautyLife_WBS/products/category/brand/Clinique">
     <img
       className=""
       src={Five}
@@ -67,7 +67,7 @@ export default function Brands(){
       width="45%"
       height="25px"
     /></Link>
-    <Link  id="clickable" to="/products/category/brand/Estee Lauder">
+    <Link  id="clickable" to="/BeautyLife_WBS/products/category/brand/Estee Lauder">
     <img
       className=""
       src={Six}
@@ -75,7 +75,7 @@ export default function Brands(){
       width="45%"
       height="25px"
     /></Link>
-    <Link  id="clickable" to="/products/category/brand/Rituals">
+    <Link  id="clickable" to="/BeautyLife_WBS/products/category/brand/Rituals">
     <img
       className=""
       src={Eleven}
@@ -83,7 +83,7 @@ export default function Brands(){
       width="45%"
       height="25px"
     /></Link>
-    <Link  id="clickable" to="/products/category/brand/MAC">
+    <Link  id="clickable" to="/BeautyLife_WBS/products/category/brand/MAC">
     <img
       className=""
       src={Eight}

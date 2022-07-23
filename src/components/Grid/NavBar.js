@@ -100,12 +100,12 @@ let handleKeyPress = (e) => {
         <Toolbar id="bar">
       
           <div style={{ display: 'flex' }}>
-            <Link style={{ textDecoration: 'none', color: 'white' }} to="/">
+            <Link style={{ textDecoration: 'none', color: 'white' }} to="/BeautyLife_WBS/">
               <Button color="inherit" href="" id="clickable" style={{ marginLeft: '15%' }}>
                 Products
   </Button>
             </Link>
-            <Link style={{ textDecoration: 'none', color: 'white' }} to="/products/search/On promotion">
+            <Link style={{ textDecoration: 'none', color: 'white' }} to="/BeautyLife_WBS/products/search/On promotion">
               <Button color="inherit" href="" id="clickable" style={{ marginLeft: '35%' }}>
                 Promotions</Button>
             </Link>
@@ -117,19 +117,18 @@ let handleKeyPress = (e) => {
               value={value} onChange={onChange}
               onKeyPress={handleKeyPress}
               className={classes.searchInput}
-              onKeyPress={handleKeyPress}
-              endAdornment={<Link to={`/products/search/${value}`} style={{ color: 'white' }} onClick={onClick}>
+              endAdornment={<Link to={`/BeautyLife_WBS/products/search/${value}`} style={{ color: 'white' }} onClick={onClick}>
                 <SearchIcon id="clickable" style={{ fontSize: 'large%', color: '#2b4f60' }} /></Link>}
             />
             </div>
 
 <div style={{ display: 'flex' }}>
-            <Link style={{ textDecoration: 'none', color: 'white' }} to="/beauty/life/company/help/contact/customers/service/questions/answers">
+            <Link style={{ textDecoration: 'none', color: 'white' }} to="/BeautyLife_WBS/beauty/life/company/help/contact/customers/service/questions/answers">
               <Button color="inherit" href="" id="clickable">
                 Help
   </Button>
             </Link>
-            <Link style={{ textDecoration: 'none', color: 'white' }} to="/beauty/life/company/help/contact/info/story/us/three/founders">
+            <Link style={{ textDecoration: 'none', color: 'white' }} to="/BeautyLife_WBS/beauty/life/company/help/contact/info/story/us/three/founders">
               <Button color="inherit" href="" id="clickable" style={{ marginLeft: '40%' }}>
                 About</Button>
             </Link>

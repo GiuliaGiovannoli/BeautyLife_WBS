@@ -138,8 +138,6 @@ const UserLogin = () => {
                         id="password"
                         autoComplete="none"
                         onChange={handleOnChange}
-
-                        autoComplete="current-password"
                     />
                     <Button
                         type='submit'
@@ -154,7 +152,7 @@ const UserLogin = () => {
                     </Button>
                     <Grid container>
                         <Grid item xs>
-                            <Link to="/users/register" variant='body2'>
+                            <Link to="/BeautyLife_WBS/users/register" variant='body2'>
                                 {"Don't have an account? Sign Up"}
                             </Link>
                         </Grid>

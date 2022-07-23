@@ -47,7 +47,7 @@ export default function Categories() {
       categories.map((category) => {
         return (
           <Card className={classes.root} id="oneCategory" style={{ width : '100%', borderRadius: '6%', backgroundColor: '#2b4f60' }}>
-          <Link id="linkStyle" to={category.name !== 'Classes' ? `/products/${category.name}` : '/beauty/life/company/help/lessons/info/classes/makeup/class/lesson/yourlesson'}>
+          <Link id="linkStyle" to={category.name !== 'Classes' ? `/BeautyLife_WBS/products/${category.name}` : '/BeautyLife_WBS/beauty/life/company/help/lessons/info/classes/makeup/class/lesson/yourlesson'}>
       <CardActionArea style={{ cursor: 'pointer' }}>
         <CardMedia
           className={classes.media}

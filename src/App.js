@@ -49,27 +49,27 @@ export default function App() {
                 <HeartProvider>
                   <Header />
                   <Switch>
-                    <Route path="/users/register" component={UserRegister} />
-                    <Route exact path="/users/login" component={UserLogin} />
-                    <Route exact path="/" component={Home} />
-                    <PrivateRoute exact path='/hallo' component={TestPrivate} />
-                    <Route exact path="/products/:category" component={Home} />
-                    <Route exact path="/products/search/:filter" component={Home} />
-                    <Route exact path="/products/category/brand/:brand" component={Home} />
-                    <Route exact path="/products/product/all/one/:id" component={Home} />
+                    <Route path="/BeautyLife_WBS/users/register" component={UserRegister} />
+                    <Route exact path="/BeautyLife_WBS/users/login" component={UserLogin} />
+                    <Route exact path="/BeautyLife_WBS/" component={Home} />
+                    <PrivateRoute exact path='/BeautyLife_WBS/hallo' component={TestPrivate} />
+                    <Route exact path="/BeautyLife_WBS/products/:category" component={Home} />
+                    <Route exact path="/BeautyLife_WBS/products/search/:filter" component={Home} />
+                    <Route exact path="/BeautyLife_WBS/products/category/brand/:brand" component={Home} />
+                    <Route exact path="/BeautyLife_WBS/products/product/all/one/:id" component={Home} />
 
-                    <PrivateRoute exact path="/beauty/life/users/user/profile" component={Home} />
+                    <PrivateRoute exact path="/BeautyLife_WBS/beauty/life/users/user/profile" component={Home} />
                     
-                    <Route exact path="/beauty/life/user/profile/buy/cart" component={Home} />
+                    <Route exact path="/BeautyLife_WBS/beauty/life/user/profile/buy/cart" component={Home} />
 
-                    <PrivateRoute exact path="/beauty/life/user/profile/buy/cart/checkout" component={Checkout} />
-                    <PrivateRoute exact path="/orders/order-success" component={OrderSuccess} />
-                    <PrivateRoute exact path="/orders/order-list" component={OrderList} />
+                    <PrivateRoute exact path="/BeautyLife_WBS/beauty/life/user/profile/buy/cart/checkout" component={Checkout} />
+                    <PrivateRoute exact path="/BeautyLife_WBS/orders/order-success" component={OrderSuccess} />
+                    <PrivateRoute exact path="/BeautyLife_WBS/orders/order-list" component={OrderList} />
 
-                    <Route exact path="/beauty/life/user/profile/products/buy/favorites/heart" component={Home} />
-                    <Route exact path="/beauty/life/company/help/contact/customers/service/questions/answers" component={Home} />
-                    <Route exact path="/beauty/life/company/help/contact/info/story/us/three/founders" component={Home} />
-                    <Route exact path="/beauty/life/company/help/lessons/info/classes/makeup/class/lesson/yourlesson" component={Home} />
+                    <Route exact path="/BeautyLife_WBS/beauty/life/user/profile/products/buy/favorites/heart" component={Home} />
+                    <Route exact path="/BeautyLife_WBS/beauty/life/company/help/contact/customers/service/questions/answers" component={Home} />
+                    <Route exact path="/BeautyLife_WBS/beauty/life/company/help/contact/info/story/us/three/founders" component={Home} />
+                    <Route exact path="/BeautyLife_WBS/beauty/life/company/help/lessons/info/classes/makeup/class/lesson/yourlesson" component={Home} />
                   </Switch>
                   <Footer />
                 </HeartProvider>

@@ -69,7 +69,7 @@ export default function Favorite() {
         
         <Card className={classes.root} style={{ width : '200px', borderRadius: '6%', backgroundColor: '#f8f1f1', marginTop: '3%', marginLeft: '2%' }}>
       <CardActionArea style={{ cursor: 'default' }}>
-      <Link id="linkStyle" to={`/products/product/all/one/${row._id}`}>
+      <Link id="linkStyle" to={`/BeautyLife_WBS/products/product/all/one/${row._id}`}>
         <CardMedia
           className={classes.media}
           image={`${BACK_URL}/${row.product_image}`}
