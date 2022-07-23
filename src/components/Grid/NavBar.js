@@ -87,7 +87,7 @@ export default function NavBar({ value, onChange, onClick }) {
 
 let handleKeyPress = (e) => {
     if (e.key === 'Enter') {
-      history.push(`/products/search/${value}`)
+      history.push(`/BeautyLife_WBS/products/search/${value}`)
       onClick(value)
     }
   }

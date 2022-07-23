@@ -53,7 +53,7 @@ export const placeOrder = (order, history) => {
             const datAuRL = `${process.env.REACT_APP_PROD_URL}/api/orders/`
             const response = await axios.post(datAuRL, order)
             dispatch({ type: PLACE_ORDER_SUCCESS, payload: response.data })
-            history.push('/orders/order-success');
+            history.push('/BeautyLife_WBS/orders/order-success');
 
         } catch (error) {
             console.error(error);

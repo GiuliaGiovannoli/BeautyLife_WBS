@@ -71,7 +71,7 @@ const UserProfile = () => {
                         <Col style={{ margin: "30px", display: 'flex', justifyContent: 'space-between' }}>
 
                             <Button id="clickable" style={{ backgroundColor: "#f8f1f1", color: "#2b4f60", border: "none" }} onClick={() => {
-                                history.push('/orders/order-list')
+                                history.push('/BeautyLife_WBS/orders/order-list')
                             }}>HISTORY ORDER </Button>
                             <Button id="clickable" style={{ backgroundColor: "#f8f1f1", color: "#2b4f60", border: "none" }} onClick={handleLogout}
                             >LOG OUT  </Button>

@@ -65,7 +65,7 @@ const UserLogin = () => {
     useEffect(() => {
         if (userUtil.getToken()) {
             dispatch(userActions.getUserInfo());
-            history.push('/')
+            history.push('/BeautyLife_WBS/')
 
 
         }

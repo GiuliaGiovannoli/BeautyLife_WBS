@@ -83,7 +83,7 @@ const Checkout = () => {
                                             <Button
                                                 style={{ backgroundColor: '#2b4f60', border: 'none' }}
                                                 onClick={() => {
-                                                    history.push('/beauty/life/users/user/profile')
+                                                    history.push('/BeautyLife_WBS/beauty/life/users/user/profile')
                                                 }}
                                             >Update Address</Button>
                                         </Row>

@@ -31,7 +31,7 @@ export const registerUser = (user, history) => {
             const dataUrl = `${process.env.REACT_APP_PROD_URL}/api/auth/register`
             const response = await Axios.post(dataUrl, user)
             dispatch({ type: REGISTER_USER_SUCCESS, payload: response.data })
-            history.push('/users/login')
+            history.push('/BeautyLife_WBS/users/login')
         } catch (error) {
             dispatch({ type: REGISTER_USER_FAILURE, payload: error.response.data })
         }
@@ -46,7 +46,7 @@ export const loginUser = (user, history) => {
             const dataUrl = `${process.env.REACT_APP_PROD_URL}/api/auth/login`
             const response = await Axios.post(dataUrl, user)
             dispatch({ type: LOGIN_USER_SUCCESS, payload: response.data })
-            history.push('/');
+            history.push('/BeautyLife_WBS/');
 
         } catch (error) {
             dispatch({ type: LOGIN_USER_FAILURE, payload: error.message })
@@ -59,7 +59,7 @@ export const loginUser = (user, history) => {
 export const logOutUser = (history) => {
     return (dispatch) => {
         dispatch({ type: LOGOUT_USER });
-        history.push('/');
+        history.push('/BeautyLife_WBS/');
     };
 };
 
