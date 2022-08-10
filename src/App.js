@@ -37,8 +37,6 @@ export default function App() {
     }
   }, [])
 
-  console.log(process.env)
-
   return (
     <div className="App">
       <Router>

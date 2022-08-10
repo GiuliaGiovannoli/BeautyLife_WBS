@@ -85,7 +85,6 @@ export default function SingleProduct() {
       setHeart(heart.filter((one) => one._id !== item._id))
     }
   }
-console.log(product && product)
 
   return (
 
