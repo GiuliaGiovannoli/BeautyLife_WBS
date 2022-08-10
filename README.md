@@ -18,7 +18,7 @@ Virtual online shop for cosmetics. Search bar, filtering, book a lesson, login, 
 
 This project has been made using:
 
-- JavaScript, [ReactJS](https://reactjs.org/), [Redux](https://redux.js.org/).
+- JavaScript, [ReactJS](https://reactjs.org/), [Redux](https://redux.js.org/)
 - [Stripe](https://stripe.com/docs)
 - [JWT](https://jwt.io/)
 - [React Router](https://v5.reactrouter.com/web/guides/quick-start)
