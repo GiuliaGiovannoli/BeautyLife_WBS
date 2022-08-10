@@ -1,6 +1,6 @@
-#Hello there! 
+# Hello there! 
 
-#BeautyLife
+# BeautyLife
 
 ## About
 
@@ -44,4 +44,4 @@ Feel free to reach out!
 - [GitHub](https://github.com/GiuliaGiovannoli)
 
 
-#Thank you for checking the Project!
+# Thank you for checking the Project!
